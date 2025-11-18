@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MINISTERIO DE EDUCACIÓN — Versión Mejorada (Demo)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <img id="logo-img" src="Logo_Gobierno_de_la_República_de_Panamá.png" alt="Logo del Ministerio" class="logo-img">
+                <div>
+                    <div class="titulo">Ministerio de Educación</div>
+                    <div class="subtitulo">Compromiso con la educación</div>
+                </div>
+            </div>
+            <nav aria-label="Menú principal">
+                <a href="#institucion">Institución</a>
+                <a href="#programas">Programas</a>
+                <a href="#prensa">Prensa</a>
+                <a href="#transparencia">Transparencia</a>
+                <a class="btn" href="#servicios">Servicios</a>
+            </nav>
+            <div class="search" role="search">
+                <input type="text" placeholder="Buscar..." aria-label="Buscar">
+            </div>
+        </header>
+
+        <main id="main">
+            <section class="hero">
+                <article class="hero-card">
+                    <h1>Noticias y recursos para estudiantes, docentes y familias</h1>
+                    <p>Acceder a noticias, guías, trámites y servicios en un solo lugar.</p>
+                    <p><a class="btn" href="#noticias">Ver novedades</a></p>
+                </article>
+                <aside class="hero-card">
+                    <h2>Estadísticas rápidas</h2>
+                    <div class="stats">
+                        <div>
+                            <div class="num">3,400</div>
+                            <div class="small muted">Centros educativos</div>
+                        </div>
+                        <div>
+                            <div class="num">180,000</div>
+                            <div class="small muted">Estudiantes</div>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+
+            <section>
+                <h2>Enlaces de interés</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>EducaPanamá</h3>
+                        <p class="small">Recursos educativos.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Transparencia</h3>
+                        <p class="small">Documentos oficiales.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Guías y tutoriales</h3>
+                        <p class="small">Instructivos para plataformas.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="noticias">
+                <h2>Últimas noticias</h2>
+                <div class="news">
+                    <article class="news-item">
+                        <img class="thumb" src="images.jpeg" alt="Imagen de noticia">
+                        <div>
+                            <h3>Estudiantes se destacan en concurso nacional</h3>
+                            <div class="small muted">15 noviembre, 2025</div>
+                        </div>
+                    </article>
+                    <article class="news-item">
+                        <img class="thumb" src="images (1).jpeg" alt="Imagen de noticia">
+                        <div>
+                            <h3>Inauguración de escuela en Veraguas</h3>
+                            <div class="small muted">10 noviembre, 2025</div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="servicios">
+                <h2>Servicios en línea</h2>
+                <div class="serv-grid">
+                    <div class="card">
+                        <h3>Gestión de nómina</h3>
+                        <p class="small">Solicitudes y formularios.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Concursos y convocatorias</h3>
+                        <p class="small">Procesos de selección.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="demo">
+                <h2>Demostración de requisitos solicitados</h2>
+                <div class="card">
+                    <h3>a. Estilos de fuente y texto</h3>
+                    <p><strong>Texto en negrita.</strong></p>
+                    <p><em>Texto en cursiva.</em></p>
+                    <p style="text-decoration:underline">Texto subrayado.</p>
+                    <p class="big">Fuente más grande.</p>
+                    <p class="primary-text">Texto con color principal.</p>
+                </div>
+                <div class="card bkg-light">
+                    <h3>b. Colores y fondos</h3>
+                    <p class="highlight">Este párrafo usa un fondo personalizado.</p>
+                </div>
+                <div class="card">
+                    <h3>c. Enlaces</h3>
+                    <p>Ejemplo: <a href="#">Visitar sección demostrativa</a></p>
+                    <p>Enlace estilizado: <a href="#" class="orange-link">Enlace naranja subrayado</a></p>
+                </div>
+                <div class="card">
+                    <h3>d. Caja (agrupación)</h3>
+                    <div class="box">
+                        <p>Esta caja agrupa contenido.</p>
+                        <ul>
+                            <li>Elemento 1</li>
+                            <li>Elemento 2</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>e. Márgenes y bordes</h3>
+                    <div class="marged-box">Bloque con márgenes amplios y borde punteado.</div>
+                </div>
+                <div class="card position-demo">
+                    <h3>f. Flotamiento y posicionamiento</h3>
+                    <img class="float-img" src="Ministerio-de-Educación-avanza-su-proceso-de-transición.jpg" alt="Imagen flotante">
+                    <p>La imagen usa <strong>float:right</strong>, el texto fluye alrededor.</p>
+                    <div class="abs-box">Caja posicionada</div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div><strong>Ministerio de Educación</strong>
+                    <div class="muted">Panamá — +507 511-4400</div>
+                </div>
+                <div class="muted">© <span id="year"></span> — Todos los derechos reservados</div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
